@@ -8,7 +8,7 @@ OpenShift-compatible variant of https://filebrowser.org/
 
 2. Click '+Add' and select Git Repository 'Import from Git':
 
-   -  Git Repo URL: `https://github.com/jblumert/filebrowser`
+   -  Git Repo URL: `https://github.com/eyalabraham/filebrowser`
 
    -  Dockerfile path: `Dockerfile` (default)
 
@@ -34,9 +34,10 @@ OpenShift-compatible variant of https://filebrowser.org/
 
    - **Important** - Mount Path: `/files`
 
-4. You're all set! Find the _Route_ that was created for the application and open it from a web browser. Default Username is `admin`, default Password is `admin`.
+4. Optional. Create sample files by running the ```/mkfiles.sh``` script from the pod's command line shell.
 
-🚀 Enjoy!
+5. You're all set! Find the _Route_ that was created for the application and open it from a web browser. Default Username is `admin`, default Password is `admin`.
+
 
 ## Copyright and license
 
