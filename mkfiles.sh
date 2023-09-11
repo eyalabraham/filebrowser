@@ -11,4 +11,4 @@ dd if=/dev/urandom of=$FILES/file2 bs=1M count=10
 md5sum $FILES/file2 >> $FILES/checksum
 
 dd if=/dev/urandom of=$FILES/file3 bs=1M count=10
-md5sum $FILES/file2 >> $FILES/checksum
+md5sum $FILES/file3 >> $FILES/checksum
