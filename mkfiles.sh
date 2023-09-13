@@ -1,4 +1,4 @@
-#!/bin/bash 
+#!/bin/sh 
 # Create three 1MB files with random data in the 'filebrowser' application.
 # Run inside the 'filebrowser' pod.
 
